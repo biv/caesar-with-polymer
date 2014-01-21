@@ -1,0 +1,8 @@
+<polymer-element name="caesar-decoder">
+  <template>
+  	<input type="text" maxlength="200" value="{{inputText}}"/>
+  	<button on-click="{{decode}}">Decode</button>
+  	{{outputText}}
+  </template>
+  <script type="application/dart" src="decoder.dart"></script>
+</polymer-element>

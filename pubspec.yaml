@@ -1,0 +1,8 @@
+name: caezar_with_polimer
+description: A sample Polymer application
+dependencies:
+  browser: any
+  polymer: any
+transformers:
+- polymer:
+    entry_points: web/index.html
